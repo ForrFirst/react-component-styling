@@ -1,5 +1,5 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import Alert from "./components/Alert";
 import "./App.css";
 
 function App() {
@@ -15,12 +15,11 @@ function App() {
       <hr />
       <div className="alert-components-section">
         {/* ถ้าสร้าง Component Alert เสร็จแล้วให้ Uncomment โค้ดด้านล่าง เพื่อดูผลลัพธ์ */}
-        {/*
-          <Alert severity="error">This is error alert box</Alert>
-          <Alert severity="warning">This is a warning alert box</Alert>
-          <Alert severity="info">This is an info alert box</Alert>
-          <Alert severity="success">This is a success alert box</Alert>
-        */}
+
+        <Alert severity="error">This is error alert box</Alert>
+        <Alert severity="warning">This is a warning alert box</Alert>
+        <Alert severity="info">This is an info alert box</Alert>
+        <Alert severity="success">This is a success alert box</Alert>
       </div>
     </div>
   );
