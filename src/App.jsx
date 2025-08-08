@@ -1,6 +1,7 @@
 import "./App.css";
 import Button from "./components/Button.jsx";
 import Alert from "./components/Alert.jsx";
+import frownIcon from './assets/frown.png';
 
 const errorIcon = (<svg></svg>)
 

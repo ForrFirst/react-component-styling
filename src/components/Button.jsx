@@ -7,13 +7,14 @@ export default function Button(props) {
   css={css
     `padding: 16px;
     display:block;
+    align-self: center;
     background-color:${props.bgcolor};
     border-radius: 4px;
     color: white;
     font-size: 16px;
     border: none;
     width: 171.19px;
-    margin-bottom: 40px;
+    margin: 0 auto 40px auto;
     `}>
         Large
     </button>;
